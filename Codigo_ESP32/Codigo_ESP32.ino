@@ -20,7 +20,7 @@ const char *WIFI_PASSWORD = "#sbcHack2";
 #define SUB_DEVICE_NAME "Subfinger"
 
 // The MQTTT endpoint for the device (unique for each AWS account but shared amongst devices within the account)
-#define AWS_IOT_ENDPOINT "##############.iot.us-east-1.amazonaws.com"
+#define AWS_IOT_ENDPOINT "#############.iot.us-east-1.amazonaws.com"
 
 // The MQTT topic that this device should publish to
 #define AWS_IOT_TOPIC "$aws/things/" DEVICE_NAME "/shadow/update"
@@ -81,15 +81,12 @@ void messageReceived(String &topic, String &payload) {
   Serial.println(payload.substring(0, 5));
   if(payload.substring(0, 5) == "Check")
   {
-    bool m = check(payload.substring(5, 6).toInt());
-    if(m)
-  {
-    client.publish(AWS_IOT_TOPIC,"Confirm");
-  }
-  else
-  {
-    client.publish(AWS_IOT_TOPIC,"Not Confirm");
-  }
+    int m = check();
+    if(m==(-1))
+    {
+      m=0;
+    }
+    client.publish(AWS_IOT_TOPIC,string2char(String(m)));
   }
 }
 
@@ -195,7 +192,7 @@ uint8_t getFingerprintID() {
   return finger.fingerID;
 }
 
-bool check (int fingersd)
+int check (void)
 {
   int tick1=millis();
   int tick2=tick1;
@@ -203,12 +200,12 @@ bool check (int fingersd)
   {
   if((tick2-tick1)<10000)
   {
-    int rea = getFingerprintIDez(fingersd);
+    int rea = getFingerprintIDez();
     delay(50);            //don't ned to run this at full speed.
     tick2=millis();
     if(rea!=(-1))
     {
-      return 1;
+      return rea;
     }
   }
   else
@@ -219,7 +216,7 @@ bool check (int fingersd)
 }
 
 // returns -1 if failed, otherwise returns ID #
-int getFingerprintIDez(int fingers) {
+int getFingerprintIDez(void) {
   uint8_t p = finger.getImage();
   if (p != FINGERPRINT_OK)  return -1;
 
@@ -234,9 +231,5 @@ int getFingerprintIDez(int fingers) {
   Serial.print(finger.fingerID); 
   Serial.print(" with confidence of "); 
   Serial.println(finger.confidence);
-  if(finger.fingerID==fingers and finger.confidence>60)
-  {
-    return finger.fingerID; 
-  }
-  return -1;
+  return finger.fingerID;
 }
