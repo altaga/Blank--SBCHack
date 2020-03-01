@@ -69,8 +69,12 @@ Empezando desde el Backend, estamos utilizado los servicios de AWS, particularme
 
 ## Algoritmo de implementacion
 
+1.- Ensamble del Hardware siguiendo la documentación proporcionada en cada fuente anteriormente.
+2.- Correr una python virtual machine que sirve como backend para .
+
 ## Fotos de la implementacion real
 
+<img src="https://i.ibb.co/ThwM9bL/20200301-102409.jpg">
 
 
 
