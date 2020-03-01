@@ -64,8 +64,12 @@ https://github.com/espressif/arduino-esp32
 
 <img src="https://fincluye.s3.amazonaws.com/Diagramadealtonivel.png">
 
+Empezando desde el Backend, estamos utilizado los servicios de AWS, particularmente cognito para comunicar las distintas fases del proyecto. Tenemos dos principales "cosas" en cuanto a hardware se trata, la aplicacion movil, y por otro lado el kioko de autopago que trabaja en tandem con con el sensor de huella. La arquitectura esta basada en usar las APIs de CyberSource para correr los principales servicion y como frontend tenemos una progresive Webapp realizada en React para evitar el uso de una aplicacion móvil que mejora la adopción del usuario.
+
 
 ## Algoritmo de implementacion
+
+## Fotos de la implementacion real
 
 
 
