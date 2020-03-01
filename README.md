@@ -3,7 +3,7 @@
 
 <img src= "https://fincluye.s3.amazonaws.com/palpei.png">
 
-Hacemos que todos tengan el poder de hacer pagos rápidas y eficaces, por medio de una plataforma inteligente que se integra a lo que ya existe, haciendo que las marcas brinden una experiencia única
+## Hacemos que todos tengan el poder de hacer pagos rápidas y eficaces, por medio de una plataforma inteligente que se integra a lo que ya existe, haciendo que las marcas brinden una experiencia única
 
 El projecto consta de 3 principales componentes que forman una plataforma.
 
