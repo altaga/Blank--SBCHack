@@ -75,7 +75,7 @@ Empezando desde el Backend, estamos utilizado los servicios de AWS, particularme
 
 3.- Utilizar los servicios de AWS siguiendo el codigo proporcionado comprobando credenciales.
 
-4.- Hacer propia base de datos para el inventario a usarse e imprimir los c[odigos QR a utilizar.
+4.- Hacer propia base de datos para el inventario a usarse e imprimir los codigos QR a utilizar.
 
 5.- Registrar las huellas necesarias y correr el primer programa de prueba.
 
