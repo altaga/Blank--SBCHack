@@ -1,5 +1,5 @@
 
-# Blank--SBCHack
+# Blank-SBCHack
 
 El projecto consta de 3 principales componentes que forman una plataforma.
 
