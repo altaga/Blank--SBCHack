@@ -20,7 +20,9 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 
 - Sistema de pagos contactless basado en CoDi (QR) para realizar los escaneos de productos
 
-### Materiales ultilizados
+## Materiales ultilizados
+
+### Hardware
 
 - Nvidia Jetson Nano (Una Raspberry pi 3 o 4 puede ser suficiente): https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="400"/>
@@ -33,17 +35,22 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 https://makersportal.com/blog/2019/6/9/arduino-optical-fingerprint-sensor-as608
 
 <img src="https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1560115730429-HZBI8GWJLUJ9BK246Z4W/ke17ZwdGBToddI8pDm48kFdj1LU3QXNrC7XCDJRXSjl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US_GH6w34F4AbXQYP1mTMh6WZrJMPe9RIQ00FIMO_YvQxJ-BQGo94klLBA8TVf45lA/fingerprint_scanner_arduino_banner.jpg?format=2500w" width="400"/>
-- Esp32
+
+- Esp32: 
+https://github.com/espressif/arduino-esp32
+
+<img src="https://raw.githubusercontent.com/espressif/arduino-esp32/master/docs/esp32_pinmap.png" width="400"/>
+
 - Camara web Logitech
 - Bateria de Litio 
 - Tarjeta de Red o Dongle USB
 
-Software 
+### Software 
 
-- Servicios AWS: EC2, S3, Core IoT, Dynamo db, cognito, 
-- React JS
-- NodeJS
-- Cybersource API en EC2 server (Python)
+- Servicios AWS: EC2, S3, Core IoT, Dynamo db, cognito: https://aws.amazon.com/ 
+- React JS: https://reactjs.org/
+- NodeJS: https://nodejs.org/en/
+- Cybersource API en EC2 server (Python): https://developer.cybersource.com/api-reference-assets/index.html
 
 Introduccion
 
