@@ -24,8 +24,15 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 
 - Nvidia Jetson Nano (Una Raspberry pi 3 o 4 puede ser suficiente): https://developer.nvidia.com/embedded/jetson-nano-developer-kit
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="400"/>
-- Pantalla Touch  monitor
-- Sensor de huella
+
+- Pantalla Touch o monitor via HDMI:https://www.mimomonitors.com/pages/using-mimo-with-raspberry-pi?gclid=Cj0KCQiA1-3yBRCmARIsAN7B4H3b29sKT4aqI-yz4isnFv-wVygWl-dis6__BwlydWI2HfpoW7k6hDIaAiH6EALw_wcB
+
+<img src="https://cdn.shopify.com/s/files/1/0026/7132/files/Mimo-Pi-Working_grande.jpg?413" width="400"/>
+
+- Sensor de huella: 
+https://makersportal.com/blog/2019/6/9/arduino-optical-fingerprint-sensor-as608
+
+<img src="https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1560115730429-HZBI8GWJLUJ9BK246Z4W/ke17ZwdGBToddI8pDm48kFdj1LU3QXNrC7XCDJRXSjl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US_GH6w34F4AbXQYP1mTMh6WZrJMPe9RIQ00FIMO_YvQxJ-BQGo94klLBA8TVf45lA/fingerprint_scanner_arduino_banner.jpg?format=2500w" width="400"/>
 - Esp32
 - Camara web Logitech
 - Bateria de Litio 
