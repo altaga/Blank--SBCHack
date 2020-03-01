@@ -41,9 +41,17 @@ https://github.com/espressif/arduino-esp32
 
 <img src="https://raw.githubusercontent.com/espressif/arduino-esp32/master/docs/esp32_pinmap.png" width="400"/>
 
-- Camara web Logitech
-- Bateria de Litio 
-- Tarjeta de Red o Dongle USB
+- Camara web Logitech: https://www.amazon.com/Logitech-Laptop-Webcam-Design-360-Degree/dp/B004YW7WCY
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/91SNDNgjSiL._AC_SL1500_.jpg" width= "400"/>
+
+- Bateria de Litio : https://www.adafruit.com/product/258
+
+<img src="https://cdn-shop.adafruit.com/1200x900/258-00.jpg" width="400"/>
+
+- Tarjeta de Red o Dongle USB: https://www.amazon.com/Cudy-600Mbps-Adapter-Wireless-Desktop/dp/B07FR95KBG/ref=sr_1_1_sspa?keywords=wifi+dongle&qid=1583079118&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOU5HT1JZTFpYQVJKJmVuY3J5cHRlZElkPUEwMjg5Njc5MlVGNzNSWUUzT0xEWSZlbmNyeXB0ZWRBZElkPUExMDI3NzE5MTVJTEpFRzJMTVdaSiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/61J3dkTXWyL._AC_SL1200_.jpg" width="400"/>
 
 ### Software 
 
@@ -52,11 +60,10 @@ https://github.com/espressif/arduino-esp32
 - NodeJS: https://nodejs.org/en/
 - Cybersource API en EC2 server (Python): https://developer.cybersource.com/api-reference-assets/index.html
 
-Introduccion
+## Esquema de funcionamiento:
 
 
-
-Problema 
+## Algoritmo de implementacion
 
 
 
