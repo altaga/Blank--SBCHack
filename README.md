@@ -5,6 +5,8 @@
 
 ## Hacemos que todos tengan el poder de hacer pagos rápidas y eficaces, por medio de una plataforma inteligente que se integra a lo que ya existe, haciendo que las marcas brinden una experiencia única
 
+### Concepto
+
 El projecto consta de 3 principales componentes que forman una plataforma.
 
 
@@ -18,7 +20,7 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 
 - Sistema de pagos contactless basado en CoDi (QR) para realizar los escaneos de productos
 
-Materiales ultilizados
+### Materiales ultilizados
 
 - Jetson Nano
 - Pantalla Touch  monitor
