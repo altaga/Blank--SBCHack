@@ -62,8 +62,12 @@ https://github.com/espressif/arduino-esp32
 
 ## Esquema de funcionamiento:
 
+<img src="https://fincluye.s3.amazonaws.com/Diagramadealtonivel.png">
+
 
 ## Algoritmo de implementacion
+
+
 
 
 
