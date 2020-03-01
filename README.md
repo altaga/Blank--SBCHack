@@ -83,7 +83,7 @@ Empezando desde el Backend, estamos utilizado los servicios de AWS, particularme
 
 ## Fotos de la implementacion real
 
-<img src="https://i.ibb.co/ThwM9bL/20200301-102409.jpg">
+<img src="https://i.ibb.co/tL34Vx4/20200301-101904.jpg">
 
 <img src="https://i.ibb.co/HCS1vN3/20200301-102145.jpg">
 
