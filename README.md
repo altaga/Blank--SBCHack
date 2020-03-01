@@ -1,6 +1,10 @@
 
 # Blank-SBCHack
 
+<img src= "https://fincluye.s3.amazonaws.com/palpei.png">
+
+Hacemos que todos tengan el poder de hacer pagos rápidas y eficaces, por medio de una plataforma inteligente que se integra a lo que ya existe, haciendo que las marcas brinden una experiencia única
+
 El projecto consta de 3 principales componentes que forman una plataforma.
 
 
@@ -17,7 +21,6 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 Materiales ultilizados
 
 - Jetson Nano
-
 - Pantalla Touch  monitor
 -Sensor de huella
 -Esp32
@@ -31,6 +34,12 @@ Software
 - React JS
 - NodeJS
 - Cybersource API en EC2 server (Python)
+
+Introduccion
+
+
+
+Problema 
 
 
 
