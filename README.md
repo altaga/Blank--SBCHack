@@ -70,9 +70,22 @@ Empezando desde el Backend, estamos utilizado los servicios de AWS, particularme
 ## Algoritmo de implementacion
 
 1.- Ensamble del Hardware siguiendo la documentación proporcionada en cada fuente anteriormente.
-2.- Correr una python virtual machine que sirve como backend para .
+
+2.- Correr una python virtual machine que sirve como backend, cargar el codigo proporcionado.
+
+3.- Utilizar los servicios de AWS siguiendo el codigo proporcionado comprobando credenciales.
+
+4.- Hacer propia base de datos para el inventario a usarse e imprimir los c[odigos QR a utilizar.
+
+5.- Registrar las huellas necesarias y correr el primer programa de prueba.
+
+
 
 ## Fotos de la implementacion real
+
+<img src="https://i.ibb.co/ThwM9bL/20200301-102409.jpg">
+
+<img src="https://i.ibb.co/HCS1vN3/20200301-102145.jpg">
 
 <img src="https://i.ibb.co/ThwM9bL/20200301-102409.jpg">
 
