@@ -23,7 +23,7 @@ Link: https://sbc-movil.s3.amazonaws.com/index.html
 ### Materiales ultilizados
 
 - Nvidia Jetson Nano (Una Raspberry pi 3 o 4 puede ser suficiente): https://developer.nvidia.com/embedded/jetson-nano-developer-kit
-<img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="200"/>
+<img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg" width="400"/>
 - Pantalla Touch  monitor
 - Sensor de huella
 - Esp32
