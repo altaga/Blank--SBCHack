@@ -1,2 +1,2 @@
-# Blank--SBCHack
+# Blank-SBCHack
 Two Hack
